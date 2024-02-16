@@ -82,8 +82,8 @@ class DFRobot_GNSS_I2C:
     @staticmethod
     def _calculate_latitude_longitude(value: bytes) -> float:
         """
-        Calculates the latitude and longitude from bytes to tuple [degree, direction]
-        :param value: gnss bytes
+        Calculates the latitude and longitude from bytes to float
+        :param value: gnss value in bytes
         :return: list
         """
         val_dd = value[0]
