@@ -1,6 +1,6 @@
-# MicroPython I2C library and example for Gravity: GNSS Sensor
+# MicroPython I2C library and example for Gravity: GNSS Receiver Module
 
-This repository contains the MicroPython I2C library for the Gravity: GNSS Sensor from DFRobot, as well as a very simple example of how to use it. The original repository from DFRobot is located [here](https://github.com/DFRobot/DFRobot_GNSS) (_for Arduino and Raspberry Pi_).
+This repository contains the MicroPython I2C library for the Gravity: GNSS Receiver Module from DFRobot, as well as a very simple example of how to use it. The original repository from DFRobot is located [here](https://github.com/DFRobot/DFRobot_GNSS) (_for Arduino and Raspberry Pi_).
 
 ## Why this repository?
 
@@ -8,7 +8,7 @@ The original version of DFRobot uses Python serial (_UART_) and Python SMBus (_I
 
 ## Prerequisite
 
-- [Gravity: GNSS Sensor](https://www.dfrobot.com/product-2651.html?tracking=Mszf2HlGMStAAKkFfhNgg3QhFFchlilhR47u9vXX9o9Ko6giJYRJQdmwZjbDIvMV)
+- [Gravity: GNSS Receiver Module](https://www.dfrobot.com/product-2651.html?tracking=Mszf2HlGMStAAKkFfhNgg3QhFFchlilhR47u9vXX9o9Ko6giJYRJQdmwZjbDIvMV)
 - ESP32 (_MicroPython compatible device_)
 - MicroPython firmware installed (_min. 1.20.0.*_)
 - USB cable (_for connection between ESP32 and sensor_)

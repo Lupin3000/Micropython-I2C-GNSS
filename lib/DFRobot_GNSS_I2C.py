@@ -6,15 +6,18 @@ from time import sleep_ms
 GNSS_DEVICE_ADDR = const(0x20)
 
 MODE_GPS = const(0x01)
-MODE_BeiDou = const(0x02)
-MODE_GPS_BeiDou = const(0x03)
+MODE_BEIDOU = const(0x02)
+MODE_GPS_BEIDOU = const(0x03)
 MODE_GLONASS = const(0x04)
 MODE_GPS_GLONASS = const(0x05)
-MODE_BeiDou_GLONASS = const(0x06)
-MODE_GPS_BeiDou_GLONASS = const(0x07)
+MODE_BEIDOU_GLONASS = const(0x06)
+MODE_GPS_BEIDOU_GLONASS = const(0x07)
 
 
 class DFRobot_GNSS_I2C:
+    """
+    MicroPython class for communication with the GNSS receiver module from DFRobot via I2C
+    """
 
     ENABLE_POWER = const(0x00)
     DISABLE_POWER = const(0x01)
